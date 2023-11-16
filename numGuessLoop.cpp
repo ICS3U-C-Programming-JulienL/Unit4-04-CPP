@@ -33,7 +33,7 @@ int main() {
                 std::cout << userGuessInt <<
                 " is not a positive integer between 0 and 9.\n";
             } else {
-                // otherwise : if guess != to correct guess, then break
+                // otherwise : if guess != to correct guess, then it’s wrong
                 if (userGuessInt != correctGuess) {
                     std::cout << userGuessInt << " is not the answer.";
                 } else {
